@@ -1,0 +1,16 @@
+doctype html  
+html(lang='fr')  
+    head
+        style
+            include style.css
+        title App Node
+    body
+        h1 User Tabs
+        table
+            tr
+                th Name
+                th Location
+            each dataVal in data.users
+                tr 
+                    td #{dataVal.users}
+                    td #{dataVal.location}
